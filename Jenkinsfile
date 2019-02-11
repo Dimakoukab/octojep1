@@ -9,7 +9,7 @@ pipeline {
         stage('Stage 2') {
             agent { node {label 'wakarimashta'}}
             steps {
-                echo 'Hello from Naruto !'
+                echo 'Hola from Naruto !'
             }
         }
     }
