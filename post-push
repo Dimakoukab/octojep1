@@ -1,0 +1,2 @@
+CRUMB=$(curl -s 'http://octo:879be3d515003fd8b28958ca7eade60d@jenkins.local:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)')
+curl -X POST  http://jenkins.local:8080/job/yo/job/octojep1/buildWithParameters --user octo:879be3d515003fd8b28958ca7eade60d -H "$CRUMB"
