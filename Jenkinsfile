@@ -4,12 +4,12 @@ pipeline {
         stage('Stage 1') {
             agent {label 'bzi'}
             steps {
-                echo 'Hello world!'
+                echo 'Hola from Staitama'
             }
         stage('Stage 2') {
-            agent {label 'zbi'}
+            agent {label 'wakarimashta'}
             steps {
-                echo 'Hello hola!'
+                echo 'Hello from Naruot!'
             }
         }
     }
