@@ -1,5 +1,5 @@
 pipeline {
-    agent Saitama
+    agent any
     stages {
         stage('Stage 1') {
             steps {
