@@ -4,8 +4,7 @@ pipeline
     stages
     {
         stage('Stage 1') {
-            agent { node {label 'bzi'} }
-
+            node ('Saitama')
             steps {
                 echo 'Hola from Staitama!'
             }
