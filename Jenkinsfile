@@ -7,6 +7,7 @@ pipeline
             agent { node { label 'bzi' }}
             steps {
                 echo 'Hola from Staitama!'
+                sh 'pwd;ls -ltr'
             }
         }
 
