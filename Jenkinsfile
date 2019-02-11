@@ -4,10 +4,9 @@ pipeline
     stages
     {
         stage('Stage 1') {
-            node ('Saitama'){
+            node { 'Saitama' }
             steps {
                 echo 'Hola from Staitama!'
-            }
             }
         }
 
