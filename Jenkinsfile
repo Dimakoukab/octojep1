@@ -1,5 +1,3 @@
-#pipeline test1
-
 pipeline {
     agent Saitama
     stages {
