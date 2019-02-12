@@ -1,11 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout') {
-                checkout scm
-        }
         stage('Non-Parallel Stage') {
             steps {
+                checkout scm
                 echo 'This stage will be executed first.'
             }
         }
