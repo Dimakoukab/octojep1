@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    options { parallelsAlwaysFailFast() }
     stages {
         stage('Non-Parallel Stage') {
             steps {
