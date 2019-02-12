@@ -1,4 +1,5 @@
 pipeline {
+    checkout scm
     agent any
     stages {
         stage('Non-Parallel Stage') {
